@@ -7,6 +7,7 @@ public class TestSphere : MonoBehaviour
 {
 
     public GameObject carre;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,8 +17,8 @@ public class TestSphere : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(gameObject.GetComponent<Renderer>().material.color == Color.green){
-            carre.GetComponent<Renderer>().material.color = Color.black;
-        }
+
     }
+
+
 }
